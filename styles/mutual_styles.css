@@ -1,11 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ----------------------------------------NAV-BAR--------------------------------------------- */
+
 nav {
   background: #fff;
-  border-radius: 5px;
   position: fixed; /*makes the nav bar not move away*/
   top: 0; /*sets it to top of page*/
   width: 100%; /*makes it the entire width of the page*/
   /* hvis man kun gør dette kan man ikke se det reelle content, derfor skal der laves ekstra margin på main for at man kan se det, 30px brude være nok*/
   margin-bottom: 20px;
+  padding: 0.5rem 6rem 0.5rem 0;
+  background: red;
 }
 
 nav a:link {
@@ -16,6 +24,11 @@ nav li {
   list-style-type: none;
   padding: 10px;
   padding-bottom: 0.8rem;
+  color: black;
+}
+
+a:visited {
+  color: black;
 }
 
 nav ul {
