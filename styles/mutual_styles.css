@@ -6,33 +6,53 @@
 /* ----------------------------------------NAV-BAR--------------------------------------------- */
 
 nav {
-  background: #fff;
-  position: fixed; /*makes the nav bar not move away*/
-  top: 0; /*sets it to top of page*/
-  width: 100%; /*makes it the entire width of the page*/
+  background: rgb(224, 217, 207);
+  position: fixed; /*sætter nav bar fast*/
+  top: 0; /*sætter til top af siden*/
+  width: 100%; /*gør at den er hele siden bred*/
   /* hvis man kun gør dette kan man ikke se det reelle content, derfor skal der laves ekstra margin på main for at man kan se det, 30px brude være nok*/
   margin-bottom: 20px;
-  padding: 0.5rem 6rem 0.5rem 0;
-  background: red;
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: space-between;
 }
 
 nav a:link {
   text-decoration: none;
+  color: white;
 }
 
 nav li {
   list-style-type: none;
-  padding: 10px;
-  padding-bottom: 0.8rem;
-  color: black;
+  padding: 16px;
+  padding-bottom: 1.5rem;
+  padding-top: 1.8rem;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
 }
 
 a:visited {
-  color: black;
+  color: white;
 }
 
 nav ul {
   display: flex;
   justify-content: right;
   flex-flow: wrap;
+  padding-right: 2rem;
+}
+
+.logo {
+  display: flex;
+  justify-content: left;
+  flex-flow: wrap;
+  padding-right: 2rem;
+  color: white;
+  font-size: 2rem;
+  padding: 1rem;
+}
+
+body {
+  background: rgb(224, 217, 207);
 }
