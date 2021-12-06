@@ -1,0 +1,25 @@
+nav {
+  background: #fff;
+  border-radius: 5px;
+  position: fixed; /*makes the nav bar not move away*/
+  top: 0; /*sets it to top of page*/
+  width: 100%; /*makes it the entire width of the page*/
+  /* hvis man kun gør dette kan man ikke se det reelle content, derfor skal der laves ekstra margin på main for at man kan se det, 30px brude være nok*/
+  margin-bottom: 20px;
+}
+
+nav a:link {
+  text-decoration: none;
+}
+
+nav li {
+  list-style-type: none;
+  padding: 10px;
+  padding-bottom: 0.8rem;
+}
+
+nav ul {
+  display: flex;
+  justify-content: right;
+  flex-flow: wrap;
+}
