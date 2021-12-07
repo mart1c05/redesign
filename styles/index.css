@@ -1,5 +1,5 @@
 img {
-  max-width: 100%;
+  max-width: 60%;
 }
 #splashbillede {
   display: grid;
@@ -55,4 +55,53 @@ img {
 }
 #om_os .box-2 .img-3 {
   grid-column: 3/4;
+}
+#produkt {
+  display: grid;
+  grid-template-rows: repeat(auto-fit, minmax(100px, 1fr));
+}
+#produkt h2 {
+  grid-row: 1;
+}
+#produkt .box-1 {
+  grid-row: 2;
+}
+#produkt .box-2 {
+  grid-row: 3;
+}
+#produkt .box-3 {
+  grid-row: 4;
+}
+#produkt .box-1,
+#produkt .box-2,
+#produkt .box-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+#produkt .box-1 img,
+#produkt .box-3 img {
+  grid-column: 1/2;
+}
+#produkt .box-1 p,
+#produkt .box-3 p {
+  grid-column: 2/3;
+}
+#produkt .box-2 p {
+  grid-column: 1/2;
+}
+#produkt .box-2 img {
+  grid-column: 2/3;
+}
+/* #service .box-1 {
+  skal laves
+} */
+#service .section_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+#service .col {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
