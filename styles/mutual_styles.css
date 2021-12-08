@@ -34,12 +34,13 @@ nav a:link {
 
 nav li {
   list-style-type: none;
-  padding: 16px;
+  padding: 5px;
   padding-bottom: 1.5rem;
   padding-top: 1.8rem;
   color: white;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  font-size: 0.5rem;
 }
 
 a:visited {
@@ -84,21 +85,33 @@ footer {
   padding: 1rem;
   display: flex;
   justify-content: space-around;
+  color: white;
 }
 
 footer li {
   list-style-type: none;
-  color: white;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
 
 .facebook {
-  font-family: "social_media_circled";
+  width: 40px;
+  color: aliceblue;
+}
+
+.instagram {
+  width: 40px;
 }
 
 /*----------------------------------------------------------Fonts---------------------------------------------------------------------*/
 
 p {
   font-family: "Times New Roman", Times, serif;
+}
+
+@media (min-width: 650px) {
+  nav li {
+    font-size: 1rem;
+    padding: 16px;
+  }
 }
