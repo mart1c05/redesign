@@ -33,6 +33,8 @@
   #section_2 img{
       grid-column: 1/2;
   } 
+
+
 }
 .map{
     display: grid;
