@@ -5,6 +5,16 @@
     grid-template-columns: 1fr 1fr;
   }
   .kontakt_info{
-      grid-template-columns: 1/2;
+      grid-column: 1/2;
+      display: grid;
+      place-content: center;
   }
+}
+.kontakt_info{
+    text-align: center
+    
+}
+.telefon{
+    /*text-decoration: none;*/
+    color: white;
 }
