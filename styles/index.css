@@ -40,7 +40,7 @@ img {
 #om_os .box-2 .img-3 {
   grid-column: 3/4;
 }
-@media (min-width: 300px) {
+@media (min-width: 650px) {
   #produkt .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

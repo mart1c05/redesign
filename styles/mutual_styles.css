@@ -100,12 +100,16 @@ footer li {
 /*----------------------------------------------------------Fonts---------------------------------------------------------------------*/
 
 p {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Karma", serif;
   color: #483434;
 }
-h1,
+h1 {
+  font-family: "Karma", serif;
+  color: #f5e2b5;
+}
 h2,
 h3 {
   font-family: "Karma", serif;
-  color: #f5e2b5;
+  font-family: "Times New Roman", Times, serif;
+  color: #483434;
 }
