@@ -11,11 +11,10 @@ img {
 
 nav {
   background: rgb(224, 217, 207);
-  position: fixed; /*sætter nav bar fast*/
+  position: sticky; /*sætter nav bar fast*/
   top: 0; /*sætter til top af siden*/
   width: 100%; /*gør at den er hele siden bred*/
   /* hvis man kun gør dette kan man ikke se det reelle content, derfor skal der laves ekstra margin på main for at man kan se det, 30px brude være nok*/
-  margin-bottom: 20px;
   border-bottom: 1px solid white;
   display: flex;
   justify-content: space-between;
