@@ -40,6 +40,7 @@ nav li {
   color: white;
   font-family: "Karma", serif;
   font-size: 0.5rem;
+  font-weight: 800;
 }
 
 a:visited {
@@ -78,7 +79,7 @@ main {
 
 footer {
   max-width: 100%; /*gør at den er hele siden bred*/
-  background: #fff5f5;
+  background: #f3eeea;
   /* hvis man kun gør dette kan man ikke se det reelle content, derfor skal der laves ekstra margin på main for at man kan se det, 30px brude være nok*/
   border-top: 1px solid white;
   padding: 1rem;
@@ -89,8 +90,7 @@ footer {
 
 footer li {
   list-style-type: none;
-  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
-    "Lucida Sans", Arial, sans-serif;
+  font-family: "Karma", serif;
 }
 
 .facebook {
