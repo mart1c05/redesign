@@ -1,3 +1,10 @@
+@font-face {
+  font-family: "social_media_circled";
+  src: url("Fonts/social_media_circled-webfont.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -27,12 +34,13 @@ nav a:link {
 
 nav li {
   list-style-type: none;
-  padding: 16px;
+  padding: 5px;
   padding-bottom: 1.5rem;
   padding-top: 1.8rem;
   color: white;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
+  font-size: 0.5rem;
 }
 
 a:visited {
@@ -60,7 +68,7 @@ nav ul {
 /*-----------------------------------------------------------Generelt--------------------------------------------------------------------*/
 
 body {
-  background: rgb(224, 217, 207);
+  background: white;
 }
 
 main {
@@ -77,14 +85,44 @@ footer {
   padding: 1rem;
   display: flex;
   justify-content: space-around;
+  color: white;
 }
 
 footer li {
   list-style-type: none;
-  color: white;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
 }
 
-.adresse {
+.facebook {
+  width: 40px;
+  color: aliceblue;
+}
+
+.instagram {
+  width: 40px;
+}
+
+/*----------------------------------------------------------Fonts---------------------------------------------------------------------*/
+
+p {
+  font-family: "Karma", serif;
+  color: #483434;
+}
+h1 {
+  font-family: "Karma", serif;
+  color: #f5e2b5;
+}
+h2,
+h3 {
+  font-family: "Karma", serif;
+  font-family: "Times New Roman", Times, serif;
+  color: #483434;
+}
+
+@media (min-width: 650px) {
+  nav li {
+    font-size: 1rem;
+    padding: 16px;
+  }
 }
