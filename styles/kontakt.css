@@ -4,20 +4,20 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  .kontakt_info{
-      grid-column: 1/2;
-      display: grid;
-      place-content: center;
+  .kontakt_info {
+    grid-column: 1/2;
+    display: grid;
+    place-content: center;
   }
 }
-.kontakt_info{
-    text-align: center
-    
+.kontakt_info {
+  text-align: center;
 }
-.telefon{
-    /*text-decoration: none;*/
-    color: black;
+.telefon {
+  /*text-decoration: none;*/
+  color: black;
 }
+
 
 /*----------------------------section 2-----------------------------*/
 @media (min-width: 600px) {
@@ -25,19 +25,22 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  .tider{
-      grid-column: 2/3;
-      display: grid;
-      place-content: center;
-  }
-  #section_2 img{
-      grid-column: 1/2;
-  } 
-
-
-}
-.map{
+  .tider {
     display: grid;
+    grid-column: 2/3;
     place-content: center;
+  }
+  #section_2 img {
+    grid-column: 1/2;
+  }
 }
 
+.tider ul {
+  list-style: none;
+}
+/*------------------------------------------------------google maps----------------------------------*/
+.map {
+  display: grid;
+  place-content: center;
+}
+/*------------------------------------------------------google maps slut----------------------------------*/
