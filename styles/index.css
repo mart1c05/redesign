@@ -91,6 +91,15 @@ img {
     grid-column: 3/5;
     grid-row: 3/4;
   }
+  #produkt {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  #produkt .section_wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
   #produkt .box-1 {
     grid-row: 2;
   }
@@ -120,7 +129,7 @@ img {
   #produkt .box-2 img {
     grid-column: 2/3;
   }
-  */ #service .section_wrapper {
+  #service .section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
