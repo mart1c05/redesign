@@ -68,7 +68,7 @@ nav ul {
 /*-----------------------------------------------------------Generelt--------------------------------------------------------------------*/
 
 body {
-  background: rgb(224, 217, 207);
+  background: white;
 }
 
 main {
@@ -107,6 +107,13 @@ footer li {
 
 p {
   font-family: "Times New Roman", Times, serif;
+  color: #483434;
+}
+h1,
+h2,
+h3 {
+  font-family: "Karma", serif;
+  color: #f5e2b5;
 }
 
 @media (min-width: 650px) {
