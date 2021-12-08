@@ -69,6 +69,7 @@ nav ul {
 
 body {
   background: white;
+  grid-template-columns: 1fr minmax(0, 1200px) 1fr;
 }
 
 main {
@@ -111,11 +112,13 @@ p {
 h1 {
   font-family: "Karma", serif;
   color: #f5e2b5;
+  text-align: center;
 }
 h2,
 h3 {
   font-family: "Times New Roman", Times, serif;
   color: #483434;
+  text-align: center;
 }
 
 @media (min-width: 650px) {
