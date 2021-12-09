@@ -1,7 +1,12 @@
-/*___________________________first_section__________________*/
+/*______________________________media_first_section__________________________*/
 @media (max-width: 600px) {
-  #first_section {
+  #first_section_wrapper {
     display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  #first_section_wrapper  {
   }
 }
 
@@ -11,3 +16,5 @@
     grid-template-columns: 1fr minmax(0, 1200px) 1fr;
   }
 }
+
+/*_______________________________first_section_______________________________*/
