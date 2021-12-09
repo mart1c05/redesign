@@ -1,0 +1,17 @@
+/*______________________________media_first_section__________________________*/
+@media (max-width: 600px) {
+  #second_section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 7px;
+  }
+}
+
+@media (min-width: 600px) {
+  #first_section {
+    display: grid;
+    grid-template-columns: 1fr minmax(0, 1200px) 1fr;
+  }
+}
+
+/*_______________________________first_section_______________________________*/

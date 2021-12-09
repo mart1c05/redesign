@@ -3,6 +3,13 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+  .section_1 {
+    display: grid;
+    place-content: center;
+  }
+  .tekst_1 {
+    padding: 20px;
+  }
 
   .vaerksted {
     display: grid;
@@ -13,4 +20,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+}
+
+.billede_1 {
+  max-width: 400px;
 }
