@@ -2,26 +2,43 @@
   .section_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    place-items: center;
+    padding-top: 20px;
   }
   .section_1 {
     display: grid;
-    place-content: center;
   }
   .tekst_1 {
     padding: 20px;
+    width: 400px;
+  }
+  .billede_1 {
+    width: 400px;
   }
 
   .vaerksted {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    place-items: center;
+
+    padding: 30px;
+  }
+  .v_billede {
+    width: 300px;
   }
 
   .ejere {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    align-items: center;
   }
 
-  .billede_1 {
-    width: 200px;
+  .ejer1 {
+    align-items: center;
+  }
+
+  .portraet {
+    width: 260px;
   }
 }
