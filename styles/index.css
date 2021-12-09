@@ -1,6 +1,11 @@
 img {
   max-width: 100%;
 }
+
+video {
+  width: 100%;
+}
+
 .logo_container {
   background-color: transparent;
   position: absolute;
@@ -136,15 +141,34 @@ img {
 
 /* video */
 
-@media (min-aspect-ratio: 16/9) {
-  #start_video {
-    width: 100%;
-    height: auto;
-  }
+video {
+  width: 100%;
+  height: auto;
 }
-@media (max-aspect-ratio: 16/9) {
-  #start_video {
-    width: auto;
-    height: 100%;
-  }
+
+#video_wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+#video_wrapper > * {
+  grid-column: 1 / -1;
+}
+
+#video_wrapper h1 {
+  grid-row: 1;
+  text-align: start;
+}
+
+#video_wrapper p {
+  grid-row: 3;
+  grid-column: 1;
+  margin-left: 10vw;
+}
+
+.video_header {
+  grid-area: 1 / 1 / -1 / -1;
+  z-index: -1;
+  mix-blend-mode: multiply;
 }

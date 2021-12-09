@@ -1,5 +1,12 @@
+/*------------------------------------------------outlines til under opbyggelse------------------------------------*/
+#section_1,
+#section_2,
+#section_3,
+#section_4{
+  border: solid red 3px;
+}
 /*----------------------------section 1-----------------------------*/
-@media (min-width: 600px) {
+@media (min-width: 650px) {
   #section_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -18,29 +25,59 @@
   color: black;
 }
 
-
-/*----------------------------section 2-----------------------------*/
-@media (min-width: 600px) {
+/*---------------------------------------------------section 2--------------------------------------------------------------*/
+@media (min-width: 650px) {
   #section_2 {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  .tider {
-    display: grid;
-    grid-column: 2/3;
-    place-content: center;
-  }
   #section_2 img {
-    grid-column: 1/2;
+    order: -1;
+  }
+  .times{
+    display: grid;
+    place-content: center;
   }
 }
 
-.tider ul {
+.times ul {
   list-style: none;
 }
-/*------------------------------------------------------google maps----------------------------------*/
+
+/*---------------------------------------------------section 2 slut--------------------------------------------------------------*/
+/*-------------------------------------------------------section 3--------------------------------------------------------------*/
+label,
+input,
+button,
+textarea {
+  display: block;
+}
+form{
+  padding-left: 30px;
+}
+.book{
+text-align: start;
+}
+@media (min-width: 650px) {
+#section_3{
+  display:grid;
+  grid-template-columns: 1fr 2fr;
+
+}
+#form{
+  display: grid;
+  place-content: center;
+  padding-left: none;
+}
+.book_p{
+  grid-column: 1/2;
+  text-align:;
+}
+}
+/*-----------------------------------------------------section_4----------------------------------*/
+/*google maps*/
 .map {
   display: grid;
   place-content: center;
 }
-/*------------------------------------------------------google maps slut----------------------------------*/
+/*------------------------------------------------------section_4 slut----------------------------------*/
