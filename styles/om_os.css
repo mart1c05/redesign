@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     place-items: center;
-    padding-top: 20px;
+    padding-top: 40px;
   }
   .section_1 {
     display: grid;
@@ -21,7 +21,6 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 10px;
     place-items: center;
-
     padding: 30px;
   }
   .v_billede {
@@ -31,14 +30,24 @@
   .ejere {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: center;
-  }
-
-  .ejer1 {
-    align-items: center;
+    padding: 30px;
   }
 
   .portraet {
     width: 260px;
+    display: flex;
+    align-items: center;
+  }
+
+  .ejer_tekst {
+    display: flex;
+    align-items: center;
+    width: 280px;
+    text-align: center;
+  }
+
+  .video {
+    aspect-ratio: 16/9;
+    object-fit: cover;
   }
 }
