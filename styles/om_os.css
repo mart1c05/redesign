@@ -20,8 +20,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-}
 
-.billede_1 {
-  max-width: 400px;
+  .billede_1 {
+    width: 200px;
+  }
 }
