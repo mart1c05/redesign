@@ -1,0 +1,13 @@
+/*___________________________first_section__________________*/
+@media (max-width: 600px) {
+  #first_section {
+    display: grid;
+  }
+}
+
+@media (min-width: 600px) {
+  #first_section {
+    display: grid;
+    grid-template-columns: 1fr minmax(0, 1200px) 1fr;
+  }
+}
