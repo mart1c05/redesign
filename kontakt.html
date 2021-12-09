@@ -44,62 +44,83 @@
       <h2>Åbningstider</h2>
       <section id="section_2">
         <div class="times">
-          <ul>
-            <li><b>Mandag-Fredag:</b> <time>11.00-17.00</time></li>
-            <li><b>Lørdag:</b> <time>11.00-14.00</time></li>
-            <li><b>Søndag:</b> <i>Lukket</i></li>
-          </ul>
+          <p><b>Mandag-Fredag:</b> <time>11.00-17.00</time></p>
+          <p><b>Lørdag:</b> <time>11.00-14.00</time></p>
+          <p><b>Søndag:</b> <i>Lukket</i></p>
         </div>
         <img src="test.jpg" alt="Butikken" />
       </section>
-      
+<h2 class="book_o">Book et møde</h2>
       <section id="section_3">
-        <h3 class="book">Book et møde</h3>
-        <p class="book_p">
-          Ønsker du at vide mere om vores services eller booke et designmøde med
-          os. Så udfyld denne kontakt formular så vi kan finde en tid der passer
-          ind i din hverdag. Du er også altid velkommen til at kigge forbi
-          butikken i vores (åbningstider. – link)
-        </p>
-        <form>
-          <!-- Formular-indhold -->
-          <div class="form-felt">
-            <label for="full-name">Navn</label>
-            <input
-              placeholder="fx Anders Andersen"
-              id="full-name"
-              name="fname"
-              type="text"
-            />
-          </div>
-          <div class="form-felt">
-            <label for="telefon">Telefon nr.</label>
-            <input id="telefon" name="pnumber" type="tel" />
-          </div>
-          <div class="form-felt">
-            <label for="email">Email</label>
-            <input id="email" name="mail" type="email" />
-          </div>
-          <div class="form-felt">
-            <label for="time">Tidspunkt</label>
-            <input id="time" name="tid" type="time" />
-          </div>
-          <div class="form-felt">
-            <label for="date">Dato</label>
-            <input id="date" name="dato" type="date" />
-          </div>
+        <div id="book">
+          <p class="book_p">
+            Ønsker du at vide mere om vores services eller booke et designmøde
+            med os.
+          </p>
+          <p class="book_p">
+            Så udfyld denne kontakt formular så vi kan finde en tid der passer
+            ind i din hverdag.
+          </p>
+          <p class="book_p">
+            Du er også altid velkommen til at kigge forbi butikken i vores
+            <a href="kontakt.html#section_2">åbningstider</a>
+          </p>
+        </div>
+        <div class="form">
+          <form>
+            <!-- Formular-indhold -->
+            <div class="form_1">
+              <div class="form-felt">
+                <label for="fname">Fornavn</label>
+                <input
+                  placeholder=""
+                  id="fname"
+                  name="fname"
+                  type="text"
+                />
+              </div>
+              <div class="form-felt">
+                <label for="lname">Efternavn</label>
+                <input
+                  placeholder=""
+                  id="lname"
+                  name="lname"
+                  type="text"
+                />
+              </div>
+              <div class="form-felt">
+                <label for="telefon">Telefon nr.</label>
+                <input id="telefon" name="pnumber" type="tel" />
+              </div>
+              <div class="form-felt">
+                <label for="email">Email</label>
+                <input id="email" name="mail" type="email" />
+              </div>
+              
+            </div>
+            <div class="form_2">
+               <div class="form-felt">
+                <label for="time">Tidspunkt</label>
+                <input id="time" name="tid" type="time" />
+              </div>
+              <div class="form-felt">
+                <label for="date">Dato</label>
+                <input id="date" name="dato" type="date" />
+              </div>
 
-          <div class="form-felt">
-            <label>
-              Besked (valgfri)
-              <textarea name="besked" rows="5"></textarea>
-            </label>
-          </div>
+              <div class="form-felt">
+                <label>
+                  Besked (valgfri)
+                  <textarea name="besked" rows="5"></textarea>
+                </label>
+              </div>
 
-          <div class="form-felt">
-            <button>Indsend</button>
-          </div>
-        </form>
+              <div class="form-felt">
+                <button>Indsend</button>
+              </div>
+            </div>
+          </form>
+        </div>
       </section>
       <section id="section_4">
         <h2>Besøg os her</h2>
