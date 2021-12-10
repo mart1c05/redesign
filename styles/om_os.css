@@ -1,19 +1,44 @@
-@media (min-width: 650px) {
+.section_1 {
+  display: grid;
+  place-items: center;
+}
+
+.billede_1 {
+  width: minmax (auto, 400px);
+}
+
+.broed_1 {
+  padding-bottom: 1rem;
+}
+
+@media (min-width: 700px) {
+  /* For at skabe et ensartet udtryk, evt bruge det uden for media og evt på mutual style */
+  main {
+    grid-template-columns: minmax(1rem, auto) minmax(300px, 1200px) minmax(
+        1rem,
+        auto
+      );
+  }
   .section_1 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto 1fr minmax(2rem, auto) 1fr auto;
     place-items: center;
     padding-top: 40px;
   }
-  .section_1 {
-    display: grid;
-  }
+
   .tekst_1 {
-    padding: 20px;
     width: 400px;
+    text-align: left;
+    grid-column: 4/5;
+    text-align: center;
+  }
+
+  .tekst_1 h2 {
+    padding-bottom: 2rem;
   }
   .billede_1 {
     width: 400px;
+    grid-column: 2/3;
   }
 
   .vaerksted {
@@ -29,8 +54,16 @@
 
   .ejere {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
     padding: 30px;
+  }
+
+  .ejer1 {
+    grid-column: 2/3;
+  }
+
+  .ejer2 {
+    grid-column: 4/5;
   }
 
   .portraet {
