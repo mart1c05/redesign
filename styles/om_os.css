@@ -32,15 +32,18 @@
     grid-template-columns: 1fr 1fr;
     padding: 30px;
   }
+  .ejer1,
+  .ejer2 {
+    display: flex;
+    grid-template-columns: 1fr 1fr;
+  }
 
   .portraet {
     width: 260px;
-    display: flex;
     align-items: center;
   }
 
   .ejer_tekst {
-    display: flex;
     align-items: center;
     width: 280px;
     text-align: center;
