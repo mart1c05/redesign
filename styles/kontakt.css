@@ -19,14 +19,17 @@
   }
  
 }
-.kontakt_info {
+
+/*.kontakt_info {
   text-align: center;
-}
+}*/
 .telefon {
   /*text-decoration: none;*/
   color: black;
 }
-
+address{
+  
+}
 /*---------------------------------------------------section 2--------------------------------------------------------------*/
 @media (min-width: 650px) {
   #section_2 {
@@ -70,12 +73,7 @@ button,
 textarea {
   display: block;
 }
-h2{
-  font-size: 2rem;
-}
-h3{
-  font-size: 1.3rem;
-}
+
 .book_p{
 
 }
