@@ -4,7 +4,7 @@
 }
 
 .billede_1 {
-  width: minmax (auto, 400px);
+  max-width: 400px;
 }
 
 .broed_1 {
@@ -82,5 +82,6 @@
   .video {
     aspect-ratio: 16/9;
     object-fit: cover;
+    width: 100%;
   }
 }
