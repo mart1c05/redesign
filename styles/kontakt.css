@@ -1,5 +1,6 @@
-h2{
+ h2{
   color: #f5e2b5;
+  
 }
 /*----------------------------section 1-----------------------------*/
 @media (min-width: 650px) {
@@ -11,7 +12,7 @@ h2{
     grid-column: 1/2;
     display: grid;
     font-size: 1.5rem;
-    grid-template-rows: 100px 500px;
+    grid-template-rows: 100px 400px;
   }
   #section_1 img {
     display: grid;
