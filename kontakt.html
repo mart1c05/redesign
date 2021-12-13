@@ -25,7 +25,7 @@
     <main>
       <section id="section_1">
         <div class="kontakt_info">
-          <h1>Kontakt information</h1>
+          <h2>Kontakt os</h2>
           <div class="kontakt">
             <p>
               <b>Telefon: </b
@@ -49,60 +49,60 @@
 
       <section id="section_2">
         <div class="times">
-          <h1>Åbningstider</h1>
+          <h2>Åbningstider</h2>
           <ul>
-            <li><b>Mandag-Fredag:</b> <time>11.00-17.30</time></li>
-            <li><b>Lørdag:</b> <time>11.00-14.00</time></li>
+            <li><b>Mandag-Fredag:</b> <i>11.00-17.30</i></li>
+            <li><b>Lørdag:</b> <i>11.00-14.00</i></li>
             <li><b>Søndag:</b> <i>Lukket</i></li>
           </ul>
         </div>
         <img class="diamant" src="diamant2.JPG" alt="Butikken" />
       </section>
-      <h1 class="book_o">Book et møde</h1>
+      <h2 class="book_o">Book et møde</h2>
       <section id="section_3">
         <div id="book">
-          <p class="book_p">
+          <p>
             Ønsker du at vide mere om vores services eller booke et designmøde
             med os.
           </p>
-          <p class="book_p">
+          <p>
             Udfyld denne kontakt formular så vi kan finde en tid der passer ind
             i din hverdag.
           </p>
-          <p class="book_p">
+          <p>
             Du er også altid velkommen til at kigge forbi butikken i vores
-            <a href="kontakt.html#section_2">åbningstider</a>
+            <a href="kontakt.html#section_2">åbningstider.</a>
           </p>
         </div>
         <div class="form">
-          <form action="tak.html" name="kontakt" netlify>
+          <form netlify name="kontakt" >
             <!-- Formular-indhold -->
             <div class="form_1">
               <div class="form-felt">
                 <label for="fname">Fornavn</label>
-                <input placeholder="" id="fname" name="fname" type="text" />
+                <input placeholder="" id="fname" name="fname" type="text" required />
               </div>
               <div class="form-felt">
                 <label for="lname">Efternavn</label>
-                <input placeholder="" id="lname" name="lname" type="text" />
+                <input placeholder="" id="lname" name="lname" type="text" required/>
               </div>
               <div class="form-felt">
                 <label for="telefon">Telefon nr.</label>
-                <input id="telefon" name="pnumber" type="tel" />
+                <input id="telefon" name="pnumber" type="tel" required/>
               </div>
               <div class="form-felt">
                 <label for="email">Email</label>
-                <input id="email" name="mail" type="email" />
+                <input id="email" name="mail" type="email" required/>
               </div>
             </div>
             <div class="form_2">
               <div class="form-felt">
                 <label for="time">Tidspunkt</label>
-                <input id="time" name="tid" type="time" />
+                <input id="time" name="tid" type="time" required/>
               </div>
               <div class="form-felt">
                 <label for="date">Dato</label>
-                <input id="date" name="dato" type="date" />
+                <input id="date" name="dato" type="date" required />
               </div>
 
               <div class="form-felt">
@@ -111,7 +111,7 @@
                   <textarea name="besked" rows="5"></textarea>
                 </label>
               </div>
-
+              <br/>
               <div class="form-felt">
                 <button>Indsend</button>
               </div>
@@ -120,20 +120,53 @@
         </div>
       </section>
       <section id="section_4">
-        <h1>Besøg os her</h1>
+        <h2>Besøg os her</h2>
+      
         <div class="map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2248.3244965903077!2d12.577177415188991!3d55.70073110347534!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465252fb2123e03b%3A0xc3e8e19b7b82382a!2sGuldsmed%20Ohana!5e0!3m2!1sda!2sdk!4v1638871930681!5m2!1sda!2sdk"
-            width="600"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-          ></iframe>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2248.32420452589!2d12.577150915826277!3d55.70073618053941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465252fb20df4767%3A0xa1b12739319ad64f!2sNordre%20Frihavnsgade%2015%2C%202100%20K%C3%B8benhavn!5e0!3m2!1sda!2sdk!4v1639394695616!5m2!1sda!2sdk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
         </div>
       </section>
     </main>
-    <footer></footer>
+    <footer><div class="tider">
+        <ul>
+          <li><strong>Åbningstider:</strong></li>
+          <li>Man-Fre: <time>11.00-17.00</time></li>
+          <li>Lørdag: <time>11.00-14.00</time></li>
+          <li>Søndag: <i>Lukket</i></li>
+          <br />
+        </ul>
+      </div>
+      <div class="some">
+        <a href="https://business.facebook.com/goldsmithohana/?fref=nf">
+          <img
+            class="facebook"
+            src="sociale_medier/facebook.svg"
+            alt="facebook"
+          />
+        </a>
+        <br />
+        <a href="https://www.instagram.com/guldsmedohana/">
+          <img
+            class="instagram"
+            src="sociale_medier/instagram.svg"
+            alt="instagram"
+          />
+        </a>
+      </div>
+
+      <style type="text/css">
+        address {
+          font-style: normal;
+        }
+      </style>
+      <div class="adresse">
+        <address>
+          <strong>Adresse: </strong><br />
+          Nordre Frihavnsgade 15 <br />
+          DK-2100 København Ø <br />
+          Tel. 35 38 00 57
+        </address>
+      </div></footer>
     <script src="javascript/login.js"></script>
   </body>
 </html>
