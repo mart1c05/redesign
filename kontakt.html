@@ -10,9 +10,14 @@
     <meta name="robots" content="noindex" />
   </head>
   <body>
-    <header>
+    <header class="banner">
+      <div class="logo">
+        <p>LOGO</p>
+      </div>
+
+      <button class="toggle-btn">Menu</button>
+
       <nav>
-        <p class="logo">LOGO</p>
         <ul>
           <li><a href="index.html">Forside</a></li>
           <li><a href="kontakt.html">Kontakt os</a></li>
@@ -42,7 +47,7 @@
         </div>
         <img
           class="facade"
-          src="billeder_kontakt/ohana_vej_front.jpg"
+          src="front_go.jpg"
           alt="Butiksfacade"
         />
       </section>
@@ -58,6 +63,7 @@
         </div>
         <img class="diamant" src="diamant2.JPG" alt="Butikken" />
       </section>
+
       <h2 class="book_o">Book et møde</h2>
       <section id="section_3">
         <div id="book">
@@ -74,7 +80,7 @@
             <a href="kontakt.html#section_2">åbningstider.</a>
           </p>
         </div>
-        <div class="form">
+        <div class="forms">
           <form netlify name="kontakt" >
             <!-- Formular-indhold -->
             <div class="form_1">
@@ -127,11 +133,12 @@
         </div>
       </section>
     </main>
-    <footer><div class="tider">
+    <footer>
+      <div class="tider">
         <ul>
           <li><strong>Åbningstider:</strong></li>
-          <li>Man-Fre: <time>11.00-17.00</time></li>
-          <li>Lørdag: <time>11.00-14.00</time></li>
+          <li>Man-Fre: 11.00-17.00</li>
+          <li>Lørdag: 11.00-14.00</li>
           <li>Søndag: <i>Lukket</i></li>
           <br />
         </ul>
@@ -167,6 +174,7 @@
           Tel. 35 38 00 57
         </address>
       </div></footer>
-    <script src="javascript/login.js"></script>
+     <script src="javascripts/login.js"></script>
+    <script src="javascripts/javascript.js"></script>
   </body>
 </html>
