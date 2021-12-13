@@ -111,6 +111,12 @@ hr {
 .knap {
   max-width: 100px;
 }
+@media (min-width: 650px) {
+  hr {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+}
 
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -155,7 +161,6 @@ h1 {
   font-family: "Karma", serif;
   color: #f5e2b5;
   text-align: center;
-  font-size: 3.5rem;
 }
 h2,
 h3 {
@@ -169,10 +174,17 @@ h3 {
     font-size: 1rem;
     padding: 16px;
   }
+  h1 {
+    font-size: 3.5rem;
+    margin-bottom: 20px;
+  }
   h2 {
     font-size: 2.8rem;
+    padding-bottom: 50px;
+    margin-top: 20px;
   }
   h3 {
     font-size: 2rem;
+    padding-bottom: 30px;
   }
 }
