@@ -130,19 +130,7 @@ footer li {
   list-style-type: none;
   font-family: "Karma", serif;
   color: #483434;
-}
 
-.facebook {
-  width: 30px;
-  color: aliceblue;
-}
-
-.instagram {
-  width: 30px;
-}
-
-.adresse {
-  color: #483434;
   margin-right: 20px;
   font-style: normal;
 }
@@ -167,6 +155,7 @@ h1 {
   font-family: "Karma", serif;
   color: #f5e2b5;
   text-align: center;
+  font-size: 3.5rem;
 }
 h2,
 h3 {
@@ -179,5 +168,11 @@ h3 {
   nav li {
     font-size: 1rem;
     padding: 16px;
+  }
+  h2 {
+    font-size: 2.8rem;
+  }
+  h3 {
+    font-size: 2rem;
   }
 }
