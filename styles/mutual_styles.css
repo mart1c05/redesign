@@ -87,6 +87,11 @@ a:visited {
     flex-flow: column;
   }
 
+  .banner {
+    display: flex;
+    flex-flow: column;
+  }
+
   nav ul {
     display: flex;
     flex-flow: column;
