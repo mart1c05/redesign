@@ -14,15 +14,24 @@
   .kontakt_info {
     grid-column: 1/2;
     display: grid;
-    place-content: center;
     font-size: 1.5rem;
+    grid-template-rows: 100px 500px;
+  }
+  #section_1 img {
+    display: grid;
+    grid-column: 2/3;
+    place-content: center;
+  }
+  .kontakt h1 {
+    grid-row: 1/2;
+  }
+  .kontakt {
+    display: grid;
+    place-content: center;
+    grid-row: 2/3;
   }
 }
 
-.kontakt_info {
-  text-align: center;
-  grid-row: 2/3;
-}
 .kontakt_info h1 {
   grid-row: 1/2;
 }
