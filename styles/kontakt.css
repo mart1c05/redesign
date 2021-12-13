@@ -42,16 +42,14 @@ address {
     display: grid;
     place-content: center;
     font-size: 1.5rem;
+    
   }
-  .times p {
-    line-height: 80px;
-    padding-left: 20px;
-  }
+ 
 }
-.times {
+/*.times {
   display: grid;
   place-content: center;
-}
+}*/
 
 .times ul {
   list-style: none;
