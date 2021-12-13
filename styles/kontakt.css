@@ -21,6 +21,10 @@
 
 .kontakt_info {
   text-align: center;
+  grid-row: 2/3;
+}
+.kontakt_info h1 {
+  grid-row: 1/2;
 }
 /*.telefon {
   /*text-decoration: none;
