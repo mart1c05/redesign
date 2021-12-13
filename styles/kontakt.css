@@ -1,10 +1,4 @@
-/*------------------------------------------------outlines til under opbyggelse------------------------------------*/
-/*#section_1,
-#section_2,
-#section_3,
-#section_4{
-  border: solid red 3px;
-}*/
+
 /*----------------------------section 1-----------------------------*/
 @media (min-width: 650px) {
   #section_1 {
@@ -30,6 +24,10 @@
     place-content: center;
     grid-row: 2/3;
   }
+}
+.kontakt{
+  display: grid;
+  place-content: center;
 }
 
 .kontakt_info h1 {
@@ -68,11 +66,18 @@ address {
     place-content: center;
   }
 }
+.times ul{
+  list-style: none;
+  display: grid;
+  place-content: center;
+}
 
 #section_2 img {
   order: -1;
 }
-
+li{
+  color: #483434;
+}
 /*---------------------------------------------------section 2 slut--------------------------------------------------------------*/
 
 /*-------------------------------------------------------section 3--------------------------------------------------------------*/
@@ -116,12 +121,26 @@ textarea {
     grid-column: 1/2;
   }
 }
-
+form{
+color: #483434;
+}
+button{
+  background-color: #f5e2b5;
+  padding: 1.5%;
+}
+ #section_3 a:visited {
+  color: #f0c35c;
+}
 /*-----------------------------------------------------section_4---------------------------------*/
 /*google maps*/
 .map {
   display: grid;
   place-content: center;
+  
+  
+}
+iframe{
+ 
 }
 
 /*------------------------------------------------------section_4 slut----------------------------------*/
