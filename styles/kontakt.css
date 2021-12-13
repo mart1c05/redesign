@@ -41,6 +41,7 @@
 }*/
 #section_1 address {
   color: #483434;
+  font-family: "Karma", serif;
 }
 .telefon{
   color:#f0c35c ;
@@ -59,7 +60,7 @@
     display: grid;
     grid-column: 2/3;
     font-size: 1.5rem;
-    grid-template-rows: 100px 500px;
+    grid-template-rows: 100px 500px; 
   }
   .times h1 {
     grid-row: 1/2;
@@ -75,6 +76,7 @@
   list-style: none;
   display: grid;
   place-content: center;
+  font-family: "Karma", serif;
 }
 
 #section_2 img {
