@@ -157,7 +157,7 @@ footer {
   border-top: 1px solid white;
   padding: 1rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   color: white;
   gap: 20px;
   align-items: center;
@@ -174,13 +174,19 @@ footer li,
   font-style: normal;
 }
 
+.logo_footer {
+  width: 180px;
+}
+
 .some {
   align-items: center;
   gap: 20px;
+  padding-right: 5px;
 }
 
 .tider {
-  margin-right: auto;
+  /* Dette ville være hvis vi ville lægge ting i footer i højre og venstre side uden noget i midten */
+  /* margin-right: auto; */
   margin-left: 20px;
 }
 
@@ -190,6 +196,11 @@ footer li,
 
 .instagram {
   width: 30px;
+}
+
+.right_footer {
+  display: flex;
+  align-items: center;
 }
 
 /*----------------------------------------------------------Fonts---------------------------------------------------------------------*/
