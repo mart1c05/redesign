@@ -14,8 +14,8 @@
 @media (min-width: 700px) {
   /* For at skabe et ensartet udtryk, evt bruge det uden for media og evt på mutual style */
   main {
-    grid-template-columns: minmax(1rem, auto) minmax(300px, 1200px) minmax(
-        1rem,
+    grid-template-columns: minmax(2rem, auto) minmax(300px, 1200px) minmax(
+        2rem,
         auto
       );
   }
