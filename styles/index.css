@@ -183,8 +183,12 @@ video {
 @media (min-width: 650px) {
   #video_wrapper p {
     grid-row: 3;
-    grid-column: 1;
-    margin-left: 50px;
+    grid-column: 3;
+    margin-top: 40px;
+    margin-right: 40px;
     font-size: 1rem;
+    background-color: #f3eeea73;
+    block-size: 80px;
+    text-align: center;
   }
 }
