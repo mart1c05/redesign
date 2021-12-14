@@ -9,7 +9,7 @@ img {
 
 html {
   scroll-behavior: smooth;
-  scroll-padding-top: 50px;
+  scroll-padding-top: 40vw;
 }
 
 /* ----------------------------------------NAV-BAR--------------------------------------------- */
