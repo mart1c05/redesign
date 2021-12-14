@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Karma:wght@300;400;500;600;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Bodoni+Moda&family=Karma:wght@300;400;500;600;700&family=Noto+Serif+Display:wght@500;600&family=Rozha+One&display=swap"
       rel="stylesheet"
     />
     <title>Guldsmed Ohana</title>
@@ -38,7 +39,8 @@
           <h2>Kontakt os</h2>
           <div class="kontakt">
             <p>
-              <b>Telefon: </b><a class="telefon" href="tel:123-456-7890">30 49 49 74</a>
+              <b>Telefon: </b
+              ><a class="telefon" href="tel:123-456-7890">30 49 49 74</a>
             </p>
             <p><b>Mail:</b> info@guldsmedohana.dk</p>
             <address>
@@ -48,10 +50,14 @@
             </address>
           </div>
         </div>
+<<<<<<< HEAD
         <img
           class="facade"
           src="billeder_kontakt/ohana_vej_front.jpg"
           alt="Butiksfacade"/>
+=======
+        <img class="facade" src="front_go.jpg" alt="Butiksfacade" />
+>>>>>>> 53800ee8c96404d31ba128f5c3a2600ad02b909a
       </section>
 
       <section id="section_2">
@@ -83,30 +89,42 @@
           </p>
         </div>
         <div class="forms">
-          <form netlify name="kontakt" >
+          <form netlify name="kontakt">
             <!-- Formular-indhold -->
             <div class="form_1">
               <div class="form-felt">
                 <label for="fname">Fornavn</label>
-                <input placeholder="" id="fname" name="fname" type="text" required />
+                <input
+                  placeholder=""
+                  id="fname"
+                  name="fname"
+                  type="text"
+                  required
+                />
               </div>
               <div class="form-felt">
                 <label for="lname">Efternavn</label>
-                <input placeholder="" id="lname" name="lname" type="text" required/>
+                <input
+                  placeholder=""
+                  id="lname"
+                  name="lname"
+                  type="text"
+                  required
+                />
               </div>
               <div class="form-felt">
                 <label for="telefon">Telefon nr.</label>
-                <input id="telefon" name="pnumber" type="tel" required/>
+                <input id="telefon" name="pnumber" type="tel" required />
               </div>
               <div class="form-felt">
                 <label for="email">Email</label>
-                <input id="email" name="mail" type="email" required/>
+                <input id="email" name="mail" type="email" required />
               </div>
             </div>
             <div class="form_2">
               <div class="form-felt">
                 <label for="time">Tidspunkt</label>
-                <input id="time" name="tid" type="time" required/>
+                <input id="time" name="tid" type="time" required />
               </div>
               <div class="form-felt">
                 <label for="date">Dato</label>
@@ -119,7 +137,7 @@
                   <textarea name="besked" rows="5"></textarea>
                 </label>
               </div>
-              <br/>
+              <br />
               <div class="form-felt">
                 <button>Indsend</button>
               </div>
@@ -130,7 +148,14 @@
       <section id="section_4">
         <h2>Besøg os her</h2>
         <div class="map">
-         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2248.32420452589!2d12.577150915826277!3d55.70073618053941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465252fb20df4767%3A0xa1b12739319ad64f!2sNordre%20Frihavnsgade%2015%2C%202100%20K%C3%B8benhavn!5e0!3m2!1sda!2sdk!4v1639394695616!5m2!1sda!2sdk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2248.32420452589!2d12.577150915826277!3d55.70073618053941!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x465252fb20df4767%3A0xa1b12739319ad64f!2sNordre%20Frihavnsgade%2015%2C%202100%20K%C3%B8benhavn!5e0!3m2!1sda!2sdk!4v1639394695616!5m2!1sda!2sdk"
+            width="400"
+            height="300"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+          ></iframe>
         </div>
       </section>
     </main>
@@ -174,8 +199,9 @@
           DK-2100 København Ø <br />
           Tel. 35 38 00 57
         </address>
-      </div></footer>
-     <script src="javascripts/login.js"></script>
+      </div>
+    </footer>
+    <script src="javascripts/login.js"></script>
     <script src="javascripts/javascript.js"></script>
   </body>
 </html>
