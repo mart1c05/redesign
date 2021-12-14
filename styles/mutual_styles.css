@@ -147,6 +147,7 @@ footer {
   justify-content: space-around;
   color: white;
   gap: 20px;
+  align-items: center;
 }
 
 footer li,
