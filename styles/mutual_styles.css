@@ -18,14 +18,17 @@ img {
   width: 100%; /*gør at den er hele siden bred*/
   /* hvis man kun gør dette kan man ikke se det reelle content, derfor skal der laves ekstra margin på main for at man kan se det, 30px brude være nok*/
   border-bottom: 1px solid white;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .banner a:link {
   text-decoration: none;
   color: #483434;
+}
+
+.banner_mobile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav li {
@@ -47,8 +50,21 @@ a:visited {
   .banner ul {
     display: flex;
     justify-content: right;
-    flex-flow: wrap;
+    /* valgte at udelade dette, så den li item ikke gik ned på næste linje */
+    /* flex-flow: wrap;  */
     padding-right: 2rem;
+  }
+
+  .banner {
+    background: #f3eeea;
+    position: sticky; /*sætter nav/banner bar fast*/
+    top: 0; /*sætter til top af siden*/
+    width: 100%; /*gør at den er hele siden bred*/
+    /* hvis man kun gør dette kan man ikke se det reelle content, derfor skal der laves ekstra margin på main for at man kan se det, 30px brude være nok*/
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
 }
 /* ----------------------------------------BURGER MENU--------------------------------------------- */
@@ -97,6 +113,7 @@ a:visited {
   nav ul {
     display: flex;
     flex-flow: column;
+    align-items: center;
   }
 }
 /*--------------------------------------------------logo------------------------------------------------------*/
