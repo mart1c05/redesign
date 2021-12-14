@@ -149,7 +149,8 @@ footer {
   gap: 20px;
 }
 
-footer li {
+footer li,
+.adresse {
   list-style-type: none;
   font-family: "Noto Serif Display", serif;
   font-weight: lighter;
