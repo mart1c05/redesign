@@ -125,6 +125,7 @@ video {
     flex-direction: column;
     justify-content: space-between;
   }
+
   #service .box-1 {
     display: grid;
     place-content: center;
@@ -133,6 +134,7 @@ video {
     width: 1200px;
     height: 600px;
   }
+
   .slut_billede {
     display: grid;
     grid-template-columns: 50px 1200px 50px;
