@@ -22,6 +22,9 @@ img {
   text-decoration: none;
   color: #483434;
 }
+.banner img {
+  max-width: 30%;
+}
 
 .banner_mobile {
   display: flex;
