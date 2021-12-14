@@ -27,6 +27,17 @@ p {
 .citat {
   font-size: 2rem;
   font-style: italic;
+  color: #f0c35c;
+}
+
+.video {
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+}
+
+.video_holder {
+  grid-column: 2/3;
+  padding-bottom: 80px;
 }
 
 @media (min-width: 700px) {
@@ -91,11 +102,5 @@ p {
   .ejer_tekst {
     width: 280px;
     text-align: center;
-  }
-
-  .video {
-    aspect-ratio: 16/9;
-    object-fit: cover;
-    width: 100%;
   }
 }
