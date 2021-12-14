@@ -8,63 +8,64 @@
 
     text-align: center;
   }
-}
-#second_section_wrapper {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  gap: 7px;
-}
 
-#second_section_wrapper_img_01 {
-  background-image: url(/fotos_redigeret/DSC03561.jpg);
-  background-size: cover;
-  width: 100%;
-  height: 50vh;
-  background-position: 30%;
+  #second_section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 7px;
+  }
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  #second_section_wrapper_img_01 {
+    background-image: url(/fotos_redigeret/DSC03561.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    background-position: 30%;
 
-#service_01 {
-  font-size: 2em;
-  color: snow;
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-#second_section_wrapper_img_02 {
-  background-image: url(/fotos_redigeret/DSC03561.jpg);
-  background-size: cover;
-  width: 100%;
-  height: 50vh;
-  background-position: 30%;
+  #service_01 {
+    font-size: 2em;
+    color: snow;
+  }
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  #second_section_wrapper_img_02 {
+    background-image: url(/fotos_redigeret/DSC03561.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+    background-position: 30%;
 
-#service_02 {
-  font-size: 2em;
-  color: snow;
-}
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
-#second_section_wrapper_img_03 {
-  background-image: url(/fotos_redigeret/DSC03462.jpg);
-  background-size: contain;
-  background-repeat: no-repeat;
-  aspect-ratio: 16 / 9;
-  width: 200%;
+  #service_02 {
+    font-size: 2em;
+    color: snow;
+  }
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
+  #second_section_wrapper_img_03 {
+    background-image: url(/fotos_redigeret/DSC03462.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    aspect-ratio: 16 / 9;
+    width: 200%;
 
-#service_03 {
-  font-size: 2em;
-  color: snow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #service_03 {
+    font-size: 2em;
+    color: snow;
+  }
 }
 
 /*_______________________________first_section_______________________________*/
