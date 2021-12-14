@@ -63,6 +63,9 @@ nav li {
     justify-content: space-between;
     align-items: center;
   }
+  .banner img {
+    max-width: 20%;
+  }
 }
 /* ----------------------------------------BURGER MENU--------------------------------------------- */
 
