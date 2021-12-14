@@ -187,9 +187,6 @@ h3 {
   color: #483434;
   text-align: center;
 }
-h2 {
-  font-weight: bold;
-}
 
 @media (min-width: 650px) {
   nav li {
