@@ -16,6 +16,14 @@ p {
   margin-bottom: 1rem;
 }
 
+.section_2 a:link {
+  color: #f0c35c;
+}
+
+.section_2 a:visited {
+  color: #f0c35c;
+}
+
 @media (min-width: 700px) {
   .section_1 {
     display: grid;
@@ -67,8 +75,11 @@ p {
 
   .portraet {
     width: 260px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
     display: flex;
     align-items: center;
+    border-radius: 5%;
   }
 
   .ejer_tekst {

@@ -32,15 +32,13 @@ img {
 nav li {
   list-style-type: none;
   padding: 5px;
-  padding-bottom: 1.5rem;
-  padding-top: 1.8rem;
   font-family: "Noto Serif Display", serif;
   font-size: 1rem;
   font-weight: 800;
   color: #483434;
 }
 
-a:visited {
+.banner a:visited {
   color: #483434;
 }
 
@@ -114,13 +112,9 @@ a:visited {
 }
 /*--------------------------------------------------logo------------------------------------------------------*/
 .logo {
-  display: flex;
-  justify-content: left;
-  flex-flow: wrap;
-  padding-right: 2rem;
   color: white;
   font-size: 2rem;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 /*-----------------------------------------------------------NAV SLUT--------------------------------------------------------------------*/
 
