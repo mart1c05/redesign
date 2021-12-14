@@ -27,7 +27,7 @@
     place-content: center;
     grid-row: 2/3;
   }
-
+}
 .kontakt{
   display: grid;
   place-content: center;
