@@ -7,11 +7,6 @@ img {
   max-width: 100%;
 }
 
-html {
-  scroll-behavior: smooth;
-  scroll-padding-top: 40vw;
-}
-
 /* ----------------------------------------NAV-BAR--------------------------------------------- */
 
 /* Lavet om til banner fra nav for at inkorpere burger menu */
