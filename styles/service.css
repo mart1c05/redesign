@@ -1,17 +1,382 @@
-/*______________________________media_first_section__________________________*/
+/*______________________________GENERELT__________________________*/
+
+#hr_01 {
+  margin-bottom: 5vw;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 20vw;
+}
+
+#second_section_wrapper_txt_01:hover {
+  transform: scale(1.2);
+}
+
+#second_section_wrapper_txt_02:hover {
+  transform: scale(1.2);
+}
+
+#second_section_wrapper_txt_03:hover {
+  transform: scale(1.2);
+}
+
+/*
+
+
+__________________________________LÆS_______________________________________
+
+Først følger media-query til mobilversion - max 600px - til alle 5 sektioner
+
+Herefter følger media-query til desktopversion - min 600px - til alle 5 sektioner
+
+
+
+*/
+
+/*_________________________________mobile_media_first_section_____________________________*/
 @media (max-width: 600px) {
+  #first_section {
+    margin-bottom: 3vw;
+    margin-top: 2vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+
+    text-align: center;
+  }
+}
+
+/*______________________________mobile_media_second_section__________________________*/
+@media (max-width: 600px) {
+  #second_section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 7px;
+  }
+
+  #second_section_wrapper_img_01 {
+    background-image: url(/fotos_redigeret/DSC03614.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 50vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #second_section_wrapper_txt_01 {
+    background: rgba(243, 238, 234, 0.5);
+    border-radius: 100%;
+    padding: 12px;
+    transition: 0.5s all ease-in-out;
+  }
+
+  #service_01 {
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+
+  #second_section_wrapper_img_02 {
+    background-image: url(/fotos_redigeret/DSC03561.jpg);
+    background-size: cover;
+    width: 100%;
+    background-position: 30%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #second_section_wrapper_txt_02 {
+    background: rgba(243, 238, 234, 0.5);
+    border-radius: 100%;
+    padding: 12px;
+  }
+
+  #service_02 {
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+
+  #second_section_wrapper_img_03 {
+    background-image: url(/fotos_redigeret/3d_ringe_02.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    aspect-ratio: 16 / 9;
+    width: 200%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #second_section_wrapper_txt_03 {
+    background: rgba(243, 238, 234, 0.5);
+    border-radius: 100%;
+    padding: 12px;
+  }
+
+  #service_03 {
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+}
+
+/*______________________________mobile_media_third_section__________________________*/
+@media (max-width: 600px) {
+  #third_section {
+    text-align: center;
+    margin-top: 10vw;
+  }
+
+  #third_section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 7px;
+    margin-top: 5vw;
+  }
+
+  #third_section_wrapper_img_01 {
+    background-image: url(/fotos_redigeret/DSC03649.jpg);
+    background-size: cover;
+    background-position: 45%;
+
+    width: 100%;
+    height: 65vw;
+
+    order: -1;
+  }
+}
+
+/*______________________________mobile_media_fourth_section__________________________*/
+@media (max-width: 600px) {
+  #fourth_section_wrapper_txt_01 {
+    text-align: left;
+    margin-top: 5vw;
+  }
+
+  #h3_01 {
+    text-align: left;
+    margin-bottom: 2vw;
+  }
+
+  #fourth_section_wrapper_txt_02 {
+    text-align: left;
+    margin-top: 5vw;
+  }
+
+  #h3_02 {
+    text-align: left;
+    margin-bottom: 2vw;
+  }
+
+  #fourth_section_wrapper_txt_03 {
+    text-align: left;
+    margin-top: 5vw;
+  }
+
+  #h3_03 {
+    text-align: left;
+    margin-bottom: 2vw;
+  }
+}
+
+/*______________________________mobile_media_fifth_section__________________________*/
+@media (max-width: 600px) {
+  #fifth_section {
+    margin-top: 10vw;
+    margin-bottom: 5vw;
+  }
+
+  #fifth_section_wrapper_img_01 {
+    background-image: url(/fotos_redigeret/DSC03159.jpg);
+    background-size: cover;
+    aspect-ratio: 16 / 9;
+    width: 100%;
+  }
+}
+
+/*
+
+
+
+
+
+_________________________________HER PÅBEGYNDER MEDIA TIL DESKTOP_________________________________
+
+
+
+
+
+*/
+
+/*_________________________________desktop_media_first_section_____________________________*/
+@media (min-width: 600px) {
+  #first_section {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+
+    margin-bottom: 3vw;
+    margin-top: 2vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+
+    text-align: center;
+  }
+}
+
+#first_section_wrapper {
+  grid-column: 2 / 5;
+}
+
+/*_________________________________desktop_media_second_section_____________________________*/
+@media (min-width: 600px) {
   #second_section_wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 7px;
   }
-}
 
-@media (min-width: 600px) {
-  #first_section {
-    display: grid;
-    grid-template-columns: 1fr minmax(0, 1200px) 1fr;
+  #second_section_wrapper_img_01 {
+    background-image: url(/fotos_redigeret/DSC03614.jpg);
+    background-size: cover;
+    aspect-ratio: 4 / 5;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  #second_section_wrapper_txt_01 {
+    background: rgba(243, 238, 234, 0.5);
+    border-radius: 100%;
+    padding: 2vw;
+    margin-top: 7vw;
+    box-shadow: 0 12px 28px 0;
+  }
+
+  #service_01 {
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+
+  #second_section_wrapper_img_02 {
+    background-image: url(/fotos_redigeret/DSC03561.jpg);
+    background-size: cover;
+    background-position: 30%;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  #second_section_wrapper_txt_02 {
+    background: rgba(243, 238, 234, 0.5);
+    border-radius: 100%;
+    padding: 2vw;
+    margin-top: 7vw;
+    box-shadow: 0 12px 28px 0;
+  }
+
+  #service_02 {
+    font-size: 1.5em;
+    text-decoration: none;
+  }
+
+  #second_section_wrapper_img_03 {
+    background-image: url(/fotos_redigeret/3d_ringe_02.jpg);
+    background-size: cover;
+    background-position: 50%;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+
+  #second_section_wrapper_txt_03 {
+    background: rgba(243, 238, 234, 0.5);
+    border-radius: 100%;
+    padding: 2vw;
+    margin-top: 7vw;
+    box-shadow: 0 12px 28px 0;
+  }
+
+  #service_03 {
+    font-size: 1.5em;
+    text-decoration: none;
   }
 }
 
-/*_______________________________first_section_______________________________*/
+/*_________________________________desktop_media_third_section_____________________________*/
+@media (min-width: 600px) {
+  #third_section {
+    text-align: center;
+  }
+
+  #third_section_wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 7px;
+  }
+
+  #third_section_wrapper_txt_01 {
+    grid-column: 2 / 5;
+  }
+
+  #third_section_wrapper_img_01 {
+    background-image: url(/fotos_redigeret/DSC03606.jpg);
+    background-size: cover;
+    background-position: 45%;
+    width: 100%;
+    height: 30vw;
+    margin-top: 2vw;
+
+    grid-column: 1 / 6;
+  }
+}
+
+/*_________________________________desktop_media_fourth_section_____________________________*/
+@media (min-width: 600px) {
+  #fourth_section {
+    display: flex;
+
+    margin-top: 5vw;
+  }
+
+  #fourth_section_wrapper_txt_01 {
+    text-align: left;
+    margin-bottom: 5vw;
+    margin: 2vw;
+  }
+
+  #fourth_section_wrapper_txt_02 {
+    text-align: left;
+    margin-bottom: 5vw;
+    margin: 2vw;
+  }
+
+  #fourth_section_wrapper_txt_03 {
+    text-align: left;
+    margin-bottom: 5vw;
+    margin: 2vw;
+  }
+}
+
+/*_________________________________desktop_media_fifth_section_____________________________*/
+@media (min-width: 600px) {
+  #fifth_section {
+    margin-top: 5vw;
+    margin-bottom: 5vw;
+  }
+
+  #fifth_section_wrapper_img_01 {
+    background-image: url(/fotos_redigeret/DSC03159.jpg);
+    background-size: cover;
+    background-position: 100% 60%;
+    aspect-ratio: 16 / 9;
+    width: 100%;
+    height: 40vw;
+  }
+}

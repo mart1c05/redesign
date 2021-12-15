@@ -27,7 +27,7 @@
     place-content: center;
     grid-row: 2/3;
   }
-
+}
 .kontakt{
   display: grid;
   place-content: center;
@@ -36,10 +36,7 @@
 .kontakt_info h1 {
   grid-row: 1/2;
 }
-/*.telefon {
-  /*text-decoration: none;
-  color: black;
-}*/
+
 #section_1 address {
   color: #483434;
   font-family: "Karma", serif;
@@ -143,10 +140,7 @@ button{
   color: #f0c35c;
 }
 /*-----------------------------------------------------section_4---------------------------------*/
-/*google maps*/
 .map {
   display: grid;
   place-content: center;
 }
-
-/*------------------------------------------------------section_4 slut----------------------------------*
