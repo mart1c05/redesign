@@ -29,20 +29,38 @@
       </nav>
     </header>
     <main>
-      <div id="video_wrapper">
-        <h1>LOGO</h1>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sit fugiat
-          nam odit qui error. Maxime consequuntur excepturi ex temporibus vitae?
-        </p>
-        <video
-          autoplay
-          muted
-          loop
-          class="video_header"
-          src="http://marthascales.dk/kea/02_redesign/redesign/guldsmed_ohana_video_header.mp4"
-          type="video/mp4"
-        ></video>
+      <!-- Slideshow container -->
+      <div class="slideshow-container">
+        <!-- Full-width images with number and caption text -->
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 3</div>
+          <img src="fotos_ringe/1.jpg" style="width: 100%" />
+          <div class="text">Caption Text</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+          <img src="fotos_ringe/16.jpg" style="width: 100%" />
+          <div class="text">Caption Two</div>
+        </div>
+
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="fotos_ringe/17.jpg" style="width: 100%" />
+          <div class="text">Caption Three</div>
+        </div>
+
+        <!-- Next and previous buttons -->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+      <br />
+
+      <!-- The dots/circles -->
+      <div style="text-align: center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
       </div>
     </main>
   </body>
