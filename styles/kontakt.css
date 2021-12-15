@@ -1,5 +1,8 @@
- h2{
+/* h2{
   color: #f5e2b5;
+}*/
+.book_h{
+  padding:0%
 }
 /*----------------------------section 1-----------------------------*/
 @media (min-width: 650px) {
@@ -118,7 +121,7 @@ textarea {
   #book {
     display: grid;
     place-content: center;
-    justify-content: center;
+    
   }
   /* tekst til formular*/
   .book {
