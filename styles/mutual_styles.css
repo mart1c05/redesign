@@ -115,11 +115,14 @@ nav li {
     flex-flow: column;
     align-items: center;
   }
+
+  .logo_footer {
+    display: none;
+  }
 }
 /*--------------------------------------------------logo------------------------------------------------------*/
 .logo {
   color: white;
-  width: 600px;
   padding: 0.5rem;
 }
 /*-----------------------------------------------------------NAV SLUT--------------------------------------------------------------------*/
@@ -174,10 +177,6 @@ footer li,
   font-style: normal;
 }
 
-.logo_footer {
-  width: 180px;
-}
-
 .some {
   align-items: center;
   gap: 20px;
@@ -201,6 +200,10 @@ footer li,
 .right_footer {
   display: flex;
   align-items: center;
+}
+
+.logo_footer {
+  width: 20%;
 }
 
 /*----------------------------------------------------------Fonts---------------------------------------------------------------------*/
