@@ -3,10 +3,6 @@
   place-items: center;
 }
 
-.billede_1 {
-  width: minmax(300px, 400px);
-}
-
 .broed_1 {
   padding-bottom: 1rem;
 }
@@ -45,6 +41,10 @@ iframe {
   aspect-ratio: 16/9;
 }
 
+.billede_1 {
+  width: 80%;
+}
+
 @media (min-width: 700px) {
   .section_1 {
     display: grid;
@@ -55,7 +55,6 @@ iframe {
   }
 
   .tekst_1 {
-    width: minmax(300px, 400px);
     text-align: left;
     grid-column: 4/5;
     text-align: center;
@@ -65,7 +64,6 @@ iframe {
     padding-bottom: 2rem;
   }
   .billede_1 {
-    width: minmax(300px, 400px);
     grid-column: 2/3;
   }
 
@@ -111,5 +109,14 @@ iframe {
   .ejer_tekst {
     width: 280px;
     text-align: center;
+  }
+}
+
+@media (min-width: 1000px) {
+  .tekst_1 {
+    width: 80%;
+  }
+  .billede_1 {
+    width: 80%;
   }
 }
