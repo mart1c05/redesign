@@ -68,7 +68,7 @@ Herefter følger media-query til desktopversion - min 600px - til alle 5 sektion
 
   #second_section_wrapper_txt_01 {
     background: rgba(243, 238, 234, 0.5);
-    border-radius: 100%;
+    border-radius: 2%;
     padding: 12px;
 
     transition: 0.5s all ease-in-out;
@@ -92,7 +92,7 @@ Herefter følger media-query til desktopversion - min 600px - til alle 5 sektion
 
   #second_section_wrapper_txt_02 {
     background: rgba(243, 238, 234, 0.5);
-    border-radius: 100%;
+    border-radius: 2%;
     padding: 12px;
 
     transition: 0.5s all ease-in-out;
@@ -117,7 +117,7 @@ Herefter følger media-query til desktopversion - min 600px - til alle 5 sektion
 
   #second_section_wrapper_txt_03 {
     background: rgba(243, 238, 234, 0.5);
-    border-radius: 100%;
+    border-radius: 2%;
     padding: 12px;
 
     transition: 0.5s all ease-in-out;
