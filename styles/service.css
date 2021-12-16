@@ -70,6 +70,8 @@ Herefter følger media-query til desktopversion - min 600px - til alle 5 sektion
     background: rgba(243, 238, 234, 0.5);
     border-radius: 100%;
     padding: 12px;
+
+    transition: 0.5s all ease-in-out;
   }
 
   #service_01 {
@@ -92,6 +94,8 @@ Herefter følger media-query til desktopversion - min 600px - til alle 5 sektion
     background: rgba(243, 238, 234, 0.5);
     border-radius: 100%;
     padding: 12px;
+
+    transition: 0.5s all ease-in-out;
   }
 
   #service_02 {
@@ -115,6 +119,8 @@ Herefter følger media-query til desktopversion - min 600px - til alle 5 sektion
     background: rgba(243, 238, 234, 0.5);
     border-radius: 100%;
     padding: 12px;
+
+    transition: 0.5s all ease-in-out;
   }
 
   #service_03 {
@@ -250,7 +256,7 @@ _________________________________HER PÅBEGYNDER MEDIA TIL DESKTOP______________
 
   #second_section_wrapper_txt_01 {
     background: rgba(243, 238, 234, 0.5);
-    border-radius: 100%;
+    border-radius: 2%;
     padding: 2vw;
     margin-top: 7vw;
     box-shadow: 0 12px 28px 0;
@@ -275,7 +281,7 @@ _________________________________HER PÅBEGYNDER MEDIA TIL DESKTOP______________
 
   #second_section_wrapper_txt_02 {
     background: rgba(243, 238, 234, 0.5);
-    border-radius: 100%;
+    border-radius: 2%;
     padding: 2vw;
     margin-top: 7vw;
     box-shadow: 0 12px 28px 0;
@@ -300,7 +306,7 @@ _________________________________HER PÅBEGYNDER MEDIA TIL DESKTOP______________
 
   #second_section_wrapper_txt_03 {
     background: rgba(243, 238, 234, 0.5);
-    border-radius: 100%;
+    border-radius: 2%;
     padding: 2vw;
     margin-top: 7vw;
     box-shadow: 0 12px 28px 0;
