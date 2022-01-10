@@ -13,27 +13,36 @@ img{
   #section_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    justify-items: center;
   }
   .kontakt_info {
     grid-column: 1/2;
-   grid-row: 1/2;
+    display: grid;
+    font-size: 1.5rem;
+    grid-template-rows: 100px 500px;
   }
-  .facade{
-  grid-column: 2/3;
-   grid-row: 1/2;
-}
-  .times{
+  #section_1 img {
+    display: grid;
     grid-column: 2/3;
+    place-content: center;
+    
+  }
+  .kontakt h1 {
+    grid-row: 1/2;
+  }
+  .kontakt {
+    display: grid;
+    place-content: center;
     grid-row: 2/3;
   }
-  .diamant{
-    grid-column: 1/2;
-   grid-row: 2/3;
-  }
+}
+.kontakt{
+  display: grid;
+  place-content: center;
 }
 
+.kontakt_info h1 {
+  grid-row: 1/2;
+}
 
 #section_1 address {
   color: #483434;
@@ -134,7 +143,7 @@ button{
   font-family: "Karma", serif;
   
 }
- #section_3 a:visited {
+ #section_3 a {
   color: #f0c35c;
 }
 /*-----------------------------------------------------section_4---------------------------------*/
