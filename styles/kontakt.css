@@ -4,41 +4,36 @@
 .book_h{
   padding:0%
 }
+img{
+  object-fit: cover;
+  width: 100%;
+}
 /*----------------------------section 1-----------------------------*/
 @media (min-width: 650px) {
   #section_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    justify-items: center;
   }
   .kontakt_info {
     grid-column: 1/2;
-    display: grid;
-    font-size: 1.5rem;
-    grid-template-rows: 100px 500px;
+   grid-row: 1/2;
   }
-  #section_1 img {
-    display: grid;
+  .facade{
+  grid-column: 2/3;
+   grid-row: 1/2;
+}
+  .times{
     grid-column: 2/3;
-    place-content: center;
-    
-  }
-  .kontakt h1 {
-    grid-row: 1/2;
-  }
-  .kontakt {
-    display: grid;
-    place-content: center;
     grid-row: 2/3;
   }
-}
-.kontakt{
-  display: grid;
-  place-content: center;
+  .diamant{
+    grid-column: 1/2;
+   grid-row: 2/3;
+  }
 }
 
-.kontakt_info h1 {
-  grid-row: 1/2;
-}
 
 #section_1 address {
   color: #483434;
